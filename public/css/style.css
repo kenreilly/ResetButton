@@ -1,0 +1,36 @@
+﻿.btn-reset {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+button:focus {outline:0 !important;}
+
+.btn-reset.btn-danger {
+    box-shadow: 4px 4px 5px #800000;
+}
+.btn-reset.btn-success {
+    box-shadow: 4px 4px 5px #083003;
+}
+th.author {
+    width: 15%;
+}
+th.quote {
+    width: 75%;
+}
+th.edit, th.delete {
+    width: 5%;
+}
+
+h2.quote {
+
+}
+h3.author {
+    text-align: right;
+}
+
+.quote-container {
+    float: none;
+    margin: auto;
+}
